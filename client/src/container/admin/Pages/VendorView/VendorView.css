@@ -1,0 +1,18 @@
+.action {
+    padding: 14px 15px;
+    border-radius: 7px;
+    border: none;
+}
+
+.close_action {
+    background-color: #DDEAFF;
+}
+.close_action svg {
+    fill: #0061FF;
+}
+.close_action:hover {
+    background-color: #0061FF;
+}
+.close_action:hover svg {
+    fill: #DDEAFF;
+}

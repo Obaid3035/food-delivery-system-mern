@@ -1,0 +1,35 @@
+.res-name h5{
+    font-weight: bold;
+}
+.res-name{
+   margin: 10px 3px 0 3px !important;
+
+}
+.shop-name{
+    background-color: #ff4200;
+    color: #fff;
+}
+
+.close_btn{
+    cursor: pointer;
+}
+
+.give_review_btn{
+    color: #fff;
+    background-color: rgba(255, 66, 0, 0.63);
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.give_review_btn:hover{
+    color: black;
+    background-color: white;
+}
+
+.order_text {
+    font-weight: bold;
+    color: #fff;
+    margin-left: 20px;
+}

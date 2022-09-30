@@ -1,0 +1,21 @@
+.error_modal .modal-content {
+    width: 90%!important;
+    margin-bottom: 5rem;
+}
+
+.error_modal .modal-header {
+    padding: 2rem 1rem!important;
+    background-color: #FF6B69;
+}
+
+.error_icon {
+    font-size: 5rem;
+    color: #fff;
+}
+
+.error_modal  button:hover {
+    color: white;
+    background-color: #FF6B69;
+    transition: all 0.4s ease;
+}
+

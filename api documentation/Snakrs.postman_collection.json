@@ -1,0 +1,1048 @@
+{
+	"info": {
+		"_postman_id": "cf4dc945-23aa-4274-833e-bc56c4b01c40",
+		"name": "Snakrs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23059691"
+	},
+	"item": [
+		{
+			"name": "Vendor",
+			"item": [
+				{
+					"name": "Order",
+					"item": [
+						{
+							"name": "All Orders",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/vendor/orders-all",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"vendor",
+										"orders-all"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Under Approval Orders",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/vendors/orders-under-approval",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"vendors",
+										"orders-under-approval"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "In Progress orders",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/vendors/orders-in-progress",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"vendors",
+										"orders-in-progress"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Completed Orders",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/vendors/orders-completed",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"vendors",
+										"orders-completed"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Rejected Orders",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/vendors/orders-rejected",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"vendors",
+										"orders-rejected"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "To Accepted Orders",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/vendors/orders/accepted/:id",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"vendors",
+										"orders",
+										"accepted",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": null
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "To Rejected Orders",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/vendors/orders/rejected/:id",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"vendors",
+										"orders",
+										"rejected",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": null
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "To Completed Order",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/vendors/orders/:id",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"vendors",
+										"orders",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": null
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Menu Type",
+					"item": [
+						{
+							"name": "Show",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/vendors/menu-types/:id",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"vendors",
+										"menu-types",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": null
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Clear",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/vendors/menu-types",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"vendors",
+										"menu-types"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/vendors/menu-types/:id",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"vendors",
+										"menu-types",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": null
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/vendors/menu-types/:id",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"vendors",
+										"menu-types",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": null
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Index",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/vendors/menu-types",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"vendors",
+										"menu-types"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Gallery",
+					"item": [
+						{
+							"name": "Index",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/vendors/gallery",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"vendors",
+										"gallery"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update Main Image",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/vendors/gallery-main",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"vendors",
+										"gallery-main"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Upload Banner Image",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/vendors/gallery-banner",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"vendors",
+										"gallery-banner"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Dashboard",
+					"item": [
+						{
+							"name": "Dashboard",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/vendors/dashboard",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"vendors",
+										"dashboard"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Category",
+					"item": [
+						{
+							"name": "Index",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/vendors/category",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"vendors",
+										"category"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/vendors/category",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"vendors",
+										"category"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Show",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/vendors/category/:id",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"vendors",
+										"category",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": null
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/vendors/category/:id",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"vendors",
+										"category",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": null
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/vendors/category/:id",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"vendors",
+										"category",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": null
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Add-On",
+					"item": [
+						{
+							"name": "Create",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/vendors/add-on",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"vendors",
+										"add-on"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Show",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/vendors/add-on/:id",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"vendors",
+										"add-on",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": null
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/vendors/add-on/:id",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"vendors",
+										"add-on",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": null
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/vendors/add-on",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"vendors",
+										"add-on"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Index",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/vendors/add-on",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"vendors",
+										"add-on"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Customer",
+			"item": [
+				{
+					"name": "Shops",
+					"item": [
+						{
+							"name": "Index",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/shops",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"shops"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Postal Shaops",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/shops/postal",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"shops",
+										"postal"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Show",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/shops/slug",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"shops",
+										"slug"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Already Ordered",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/shops/already-ordered/:slug",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"shops",
+										"already-ordered",
+										":slug"
+									],
+									"variable": [
+										{
+											"key": "slug",
+											"value": null
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Reviews",
+					"item": [
+						{
+							"name": "Index",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/reviews/:slug",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"reviews",
+										":slug"
+									],
+									"variable": [
+										{
+											"key": "slug",
+											"value": null
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/reviews/:id",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"reviews",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": null
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Orders",
+					"item": [
+						{
+							"name": "Index",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/orders",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"orders"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create Payment",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/orders/payment/secret/:slug",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"orders",
+										"payment",
+										"secret",
+										":slug"
+									],
+									"variable": [
+										{
+											"key": "slug",
+											"value": null
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/orders/:slug",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"orders",
+										":slug"
+									],
+									"variable": [
+										{
+											"key": "slug",
+											"value": null
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Admin",
+			"item": [
+				{
+					"name": "Vendor",
+					"item": [
+						{
+							"name": "Subscribtion",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/admin/vendors/subscribtion",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"admin",
+										"vendors",
+										"subscribtion"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "All Vendors",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/admin/vendors",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"admin",
+										"vendors"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Active members",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/admin/vendors/active",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"admin",
+										"vendors",
+										"active"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "InActive Members",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/admin/vendors/inactive",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"admin",
+										"vendors",
+										"inactive"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "To Active Members",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/admin/vendors/active/:id",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"admin",
+										"vendors",
+										"active",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": null
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "To InActive Members",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/admin/vendors/inactive/:id",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"admin",
+										"vendors",
+										"inactive",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": null
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Orders",
+					"item": [
+						{
+							"name": "Rejected Orders",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/admin/orders/rejected",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"admin",
+										"orders",
+										"rejected"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Refund Order",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/orders/refund",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"orders",
+										"refund"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Dashboard",
+					"item": [
+						{
+							"name": "Index",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/admin/dashboard",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"admin",
+										"dashboard"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Customers",
+					"item": [
+						{
+							"name": "Index",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/admin/customers",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"admin",
+										"customers"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	]
+}

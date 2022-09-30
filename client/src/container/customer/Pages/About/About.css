@@ -1,0 +1,12 @@
+.policies-page h2 {
+    text-transform: uppercase;
+    color: #2f3352;
+    font-weight: 800 !important;
+    font-size: 35px;
+}
+
+.policies-page p {
+    line-height: 34px;
+    padding: 0px 80px;
+    text-align: justify;
+}

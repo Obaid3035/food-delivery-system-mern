@@ -1,0 +1,14 @@
+.review_modal .review_header p {
+    font-size: 18px;
+}
+
+.close_modal {
+    cursor: pointer;
+    font-size: 25px;
+    color: #FF4201;
+}
+
+.modal_body h5 {
+    font-size: 15px;
+    font-weight: bold;
+}

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-color: #F5F7F9!important;
+}
+
+.active ~ .page_responsive {
+  width: calc(100% - 240px);
+  left: 240px;
+  transition: all 0.2s ease;
+}
+.page_responsive {
+  position: absolute;
+  top: 16px;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-top: 3%;
+  height: 100%;
+  width: calc(100% - 74px);
+  left: 74px;
+  transition: all 0.2s ease;
+}
+
+.logo_img{
+  max-width: 220px;
+}
+
+.page_responsive h5 {
+  margin-bottom: 25px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.create_form .text_input {
+  padding: 27px 9px;
+}
+
+.MuiFormControl root {
+  width: 100% !important;
+}
+
+@media (max-width: 786px) {
+  .active ~ .page_responsive {
+    width: calc(100% - 240px);
+    left: 240px;
+    transition: all 0.2s ease;
+    filter: blur(5px);
+  }
+}

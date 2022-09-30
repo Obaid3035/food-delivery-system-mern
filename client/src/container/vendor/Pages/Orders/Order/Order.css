@@ -1,0 +1,52 @@
+.show_order_main_col{
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    padding: 0 !important;
+    margin: 10px;
+}
+
+.main_item p{
+    background-color: #ff4200;
+    color: #fff;
+    font-weight: 700;
+    padding: 5px 15px;
+    margin: 0;
+    border-radius: 10px 10px 0 0;
+}
+
+.main_item_detail{
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 0 0 10px 10px;
+}
+
+.quantity, .addOns_detail, .price{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+.addOns_detail{
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.addOns_detail span{
+    color: #000;
+}
+
+.divider, .price p{
+    margin: 0;
+}
+
+.addOns p{
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+.addOns_detail p{
+    font-weight: 400;
+}
+
+.price span{
+    color: #ff4200;
+}

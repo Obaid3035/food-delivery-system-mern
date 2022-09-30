@@ -1,0 +1,90 @@
+.main-section{
+    border-top-right-radius: 5rem !important;
+    border-top-left-radius: 5rem !important;
+    width: 47%;
+}
+
+.p-details h5{
+    font-size: 18px;
+    font-weight: 400;
+    color: #ff4200;
+}
+
+.p-details{
+    width: 40%;
+}
+
+@media (max-width: 991px) {
+    .p-details{
+        width: 100%;
+    }
+}
+
+.card-details{
+    margin-top: 20px;
+    background-color: #f8f8f8;
+}
+.place-order{
+    font-size: 20px !important;
+    font-weight: 600 !important;
+}
+
+.cart-sec{
+    font-weight: 700;
+    color: #ff4200;
+}
+.inc-dec{
+    width: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+.order-sum{
+    display: flex !important;
+    justify-content: space-between !important;
+    margin-top: 20px !important;
+}
+.summary{
+    margin-top: 100px;
+}
+
+.main-add-div{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.summary h4{
+    font-weight: 700;
+    color: #ff4200;
+}
+
+.order-sum h4{
+    font-weight: 500;
+    color: #ff4200;
+}
+
+
+.plus , .minus , .delete{
+    cursor: pointer;
+}
+
+.pickup_delivery{
+    color: #424770;
+    font-size: 20px;
+}
+
+@media (max-width: 991px) {
+    .summary{
+        margin-top: 10px !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .main-section{
+        width: 100% !important;
+        margin-left: 15px;
+    }
+    .main-section h1{
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,22 @@
+.main_menu{
+    margin-top: 20px;
+}
+
+.vendor_menu img{
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    margin-left: 11px;
+}
+
+@media (max-width: 991px) {
+    .vendor_menu img{
+        margin-left: 0;
+    }
+}
+
+.create_menu{
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,49 @@
+.subscription{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.subscription_detail{
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    margin-top: 20px;
+    padding: 0;
+    border-radius: 0 0 10px 10px;
+}
+
+.subscription_detail h4{
+    padding: 20px 40px;
+    background-color: #ff4200;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 10px 10px 0 0;
+}
+
+.package{
+    padding: 20px 40px;
+}
+
+.package_info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.package_info h5, .invoice h5{
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.package_info p{
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.package_info p svg{
+    font-size: 22px;
+    color: #ff4200;
+}
+
+thead {
+    background-color: #e3e5e6c9;
+}

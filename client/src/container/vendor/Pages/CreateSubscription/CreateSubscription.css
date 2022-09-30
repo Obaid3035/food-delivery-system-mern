@@ -1,0 +1,67 @@
+.packages{
+    background-color: #efefef;
+    padding-top: 30px ;
+    height: 100vh;
+}
+.packages h2{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.packages_row{
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    margin-top: 40px;
+}
+.packages_plan{
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    padding: 0 !important;
+    margin: 0 20px 10px 0;
+    background-color: #fff;
+}
+.package_name{
+    background-color: #ff4200;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+}
+.package_name h3{
+    margin: 0;
+    padding: 15px;
+    font-weight: 700;
+}
+.package_detail{
+    padding: 45px;
+}
+.package_detail p, .package_price h2{
+    margin: 0;
+}
+.package_price{
+    margin-bottom: 60px;
+    font-weight: 700;
+}
+.package_price p{
+    font-size: 12px;
+}
+.button{
+    display: contents;
+}
+.package_btn{
+    background-color: #ff4200;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    border-radius: 100px;
+    cursor: pointer;
+    padding: 6px 0;
+    border: solid #efefef 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -25px;
+}
+@media (max-width: 768px) {
+    .packages_plan{
+        margin: 0 10px 40px 10px;
+    }
+}

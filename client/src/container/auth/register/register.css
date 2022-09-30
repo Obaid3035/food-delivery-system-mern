@@ -1,0 +1,17 @@
+.error {
+    color: red;
+}
+
+.sign_in {
+    border: none !important;
+    border-bottom: 1px solid  #888888 !important;
+    border-radius: unset !important;
+    padding-left: 32px !important;
+}
+
+.sign_in_error  {
+    border: none !important;
+    border-bottom: 1px solid red !important;
+    border-radius: unset !important;
+    padding-left: 32px !important;
+}

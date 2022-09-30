@@ -1,0 +1,96 @@
+.forgetPassword_btn {
+    color: #000;
+    text-decoration: none !important;
+}
+
+.card-body h2{
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.sign-in  .rounded {
+    border-radius: 3.25rem!important;
+}
+.sign-in  label {
+    float: left;
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+}
+.sign-in .form-control:focus{
+    border-bottom: 1px solid  #888888 !important;
+}
+
+.login-field a {
+    color: #888888 !important;
+    font-family: 'Poppins', sans-serif !important;
+    text-decoration: none !important;
+}
+.login-field a:hover {
+    color: #ff4200 !important;
+}
+.sign-in .btn-send {
+    background-color: #ff4200;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 9px;
+    padding: 10px;
+}
+
+
+.map-alt{
+    display: flex;
+    color: #ff4200 !important;
+    align-items: center;
+}
+
+.search-alt{
+    display: flex;
+    align-items: center;
+}
+
+.social-links a {
+    font-size: 29px;
+    border-radius: 50% !important;
+    padding: 9px;
+    color: #fff;
+}
+
+.sign-in  .card-body {
+    padding: 2.25rem;
+}
+
+.forgetPassword_btn{
+    color: #000;
+    text-decoration: none !important;
+}
+
+
+@media (max-width: 991px) {
+    .sign-in  .card-body {
+        padding: 0.7rem;
+    }
+}
+
+.res-body{
+    padding-top: 3.25rem;
+    padding-bottom: 2.25rem;
+    padding-left: 4rem !important;
+    padding-right: 4rem !important;
+
+}
+
+.sign-card {
+    margin: 0 auto;
+}
+
+.img-form {
+    vertical-align: middle;
+    border-style: none;
+    width: 20px;
+    position: absolute;
+    left: 6px;
+    bottom: 9px;
+
+
+}

@@ -1,0 +1,64 @@
+.shop_cart img {
+    height: 200px;
+    object-fit: cover;
+}
+.restaurant-section .pro-head {
+    padding: 15px 0;
+}
+
+.restaurant-section img {
+    width: 100%;
+}
+
+
+.restaurant-section  p{
+    font-weight: 700;
+    text-align: center !important;
+    color: #000;
+    font-size: 20px;
+    margin: 0;
+}
+.restaurant-section h1 {
+    margin-bottom: 30px;
+}
+
+
+.btn-visit {
+    background-color: #ff4200 !important;
+    color: #fff !important;
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 3px;
+    padding: 8px 40px !important;
+    border: none;
+}
+.btn-visit:hover {
+    font-weight: 500;
+    transition: 0.5s;
+    color: #ff4200;
+    background-color: #fff;
+}
+
+@media (max-width: 991px) {
+    .restaurant-section  p{
+        font-size: 20px;
+    }
+}
+
+.restaurant-section span {
+    margin-left: 11px;
+    color: #000;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.restaurant-section i {
+    vertical-align: middle;
+}
+
+
+.product_item {
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px 10px;
+}

@@ -1,0 +1,21 @@
+.addOn_modal li{
+    list-style-type: none;
+}
+
+.addOn_modal li h4{
+    font-weight: 700;
+    margin-bottom: 15px;
+
+}
+
+.form-check-input{
+    width: 20px;
+    height: 20px;
+}
+.form-check-label{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.add_on_label {
+    width: 90%;
+}
